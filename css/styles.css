@@ -1,0 +1,143 @@
+/* PAGINA INICIO HEADER */
+#hero-inicio{
+    background-color: #A4D119;
+    border-bottom: 5px solid #5a7a0c;
+    padding: 0 30px 50px 30px;
+}
+
+/* Barra superior */
+.hero-barra-superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    gap: 30px;
+}
+
+.menu-principal-lista{
+    list-style: none;
+    margin: 0;
+    padding: 12px 18px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.menu-principal-lista a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.menu-principal-lista a:link{ color: black; }
+.menu-principal-lista a:visited{ color: #2c4d05; }
+.menu-principal-lista a:hover{
+    color: #5a7a0c;
+    text-decoration: underline;
+}
+.menu-principal-lista a:active{ color: #1E90FF; }
+
+
+.hero-cuerpo{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.hero-izquierda{
+    flex: 1;
+}
+
+.tagline{
+    font-size: 2.6em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 30px 0;
+    color: black;
+}
+
+.tagline span{
+    display: block;
+    border-left: 6px solid #5a7a0c;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+.tagline span:nth-child(1){ color: #2c4d05; }
+.tagline span:nth-child(2){ color: #1E90FF; }
+.tagline span:nth-child(3){ color: #b85c00; }
+
+.boton-comprar{
+    display: inline-block;
+    width: 320px;
+    background-color: #1E90FF;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 18px 22px;
+    border: 3px solid black;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px 0 black;
+}
+
+.boton-comprar:hover{
+    background-color: #0066cc;
+    color: yellow;
+    box-shadow: 6px 6px 0 black;
+}
+
+.boton-comprar .horario{
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 0.7em;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Gif de animales*/
+.animales-gif{
+    flex: 1;
+    min-height: 280px;
+    border: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9em;
+    letter-spacing: 0.15em;
+    padding: 15px;
+}
+
+/* logo*/
+
+.logo{
+    height: 200px;
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+
+    height: 100%;
+    width: auto;
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
