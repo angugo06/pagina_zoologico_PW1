@@ -143,8 +143,7 @@
 
 /*Para sobre nosotros */
 .sobre-no{
-    border: 0.2rem transparent rgb(250, 250, 250);
-    
+    border: 0.2rem solid #1E90FF;
 }
 
 .persona-equipo img{
@@ -198,6 +197,7 @@
     }
 }
 
+<<<<<<< Updated upstream
 
 /*para contacto*/
 .contenedor-form{
@@ -219,3 +219,62 @@
     border-radius: 2rem;
 
 }
+=======
+/* FOOTER COMUN */
+
+#pie{
+    border: 0.2rem solid #1E90FF;
+    background-color: #d2eae8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 0.2rem;
+}
+
+.pie-logo{
+    border: 0.2rem solid #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-logo img{
+    border: 0.2rem solid #1E90FF;
+    background-color: #d2eae8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.pie-enlaces{
+    border: 0.2rem solid #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-direccion{
+    border: 0.2rem solid #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-social{
+    border: 0.2rem solid #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icono-social{
+    border: 0.2rem solid #1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+>>>>>>> Stashed changes
