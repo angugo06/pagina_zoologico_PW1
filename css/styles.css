@@ -197,3 +197,25 @@
         transform: translateX(-100%);
     }
 }
+
+
+/*para contacto*/
+.contenedor-form{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+
+}
+
+.form-datos{
+    width: 100%;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1.5rem;
+    border: 0.2rem solid #1E90FF;
+    padding: 2rem;
+    border-radius: 2rem;
+
+}
