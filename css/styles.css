@@ -395,24 +395,22 @@ main{
     color: black;
     font-weight: bold;
 
- }
- .pie-enlaces a:hover{
-     text-decoration: underline;
-     color: black;
+}
+.pie-enlaces a:hover{
+    text-decoration: underline;
+    color: black;
+}
 
- }
+.pie-enlaces a:active{
+    text-decoration: underline;
+    color: black;     font-weight: bold;
 
- .pie-enlaces a:active{
-     text-decoration: underline;
-     color: black;
-     font-weight: bold;
-
- }
- .pie-enlaces a:visited{
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
- }
+}
+.pie-enlaces a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 .pie-direccion{
 
