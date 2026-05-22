@@ -460,3 +460,35 @@ main{
     background: #dd4b39;
     color: white;
 }
+
+
+.contenedor-tabla{
+    font-size: 1.5rem;
+    border: 0.2rem transparent;
+    overflow-x: scroll ; 
+    padding: 3rem;
+}
+
+.tickets-tabla{
+    width: 100%;
+    height: 20rem;
+    border-collapse: collapse;
+}
+
+.tickets-tabla th, .tickets-tabla td{
+    border: 0.2rem solid  #0066cc;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.tickets-tabla th{
+    background-color:#A4D119;
+    color:  #1E90FF;
+    border: 0.2rem solid #0066cc; 
+}
+
+.tickets-tabla tr:hover{
+    background: #A4D119;
+    color: black;
+    border: 0.2rem solid #0066cc;
+}
