@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Angel Andre Guzman Gonzalez, Diego Vivas Perez">
@@ -13,7 +14,9 @@
     <header id="hero-inicio">
         <nav class="hero-barra-superior">
             <div class="logo">
-                <img src="media/fes_aragon_logo.png" alt="">
+                <a href="index.html" class="logo">
+                    <img src="media/fes_aragon_logo.png" alt="" class="logo-imagen">
+                </a>
             </div>
             <ul class="menu-principal-lista">
                 <li><a href="tickets.html">Tickets</a></li>
@@ -42,11 +45,49 @@
             </div>
         </section>
     </header>
+    <main>
+        <section class="carrusel-tarjetas">
+            <h2>Explora el zoologico</h2>
+            <div class="tarjetas-fila">
+                <a href="tickets.html" class="tarjeta">
+                    <span class="icono-tarjeta">&#127903;</span>
+                    <h3>Tickets</h3>
+                </a>
+                <a href="mapa.html" class="tarjeta">
+                    <span class="icono-tarjeta">&#128205;</span>
+                    <h3>Mapa</h3>
+                </a>
+                <a href="sobre-nosotros.html" class="tarjeta">
+                    <span class="icono-tarjeta">&#11088;</span>
+                    <h3>Sobre el zoológico</h3>
+                </a>
+                <a href="faq.html" class="tarjeta">
+                    <span class="icono-tarjeta">&#128197;</span>
+                    <h3>Preguntas frecuentes</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="bienvenida">
+            <article class="bienvenida-texto">
+                <h2>Bienvenido al zoologico!</h2>
+                <p>Aquí el tiempo funciona diferente. Un rugido te detiene en seco, un par de ojos curiosos te observan desde las ramas, y por un momento olvidas que afuera existe el tráfico, el trabajo y la prisa. Eso es lo que llevamos décadas construyendo: un lugar donde la naturaleza te habla directo.</p>
+                <p>El Zoológico FES Aragón nació de la convicción de que conocer a un animal es la forma más poderosa de querer protegerlo. No basta con ver fotografías o videos; hace falta estar ahí, escuchar, oler, sentir la tierra bajo los pies mientras una jirafa estira el cuello a pocos metros de ti. Esa experiencia cambia algo dentro de las personas, y ese cambio es exactamente lo que buscamos.</p>
+                <p>Somos parte de la Universidad Nacional Autónoma de México, y eso nos compromete con algo más que el entretenimiento. Cada especie que habita este zoológico es parte de un programa de investigación, conservación o rescate. Detrás de cada recinto hay un equipo de biólogos, veterinarios y cuidadores que han dedicado su vida a entender y proteger la fauna que nos rodea.</p>
+                <p>Recorre nuestros senderos sin prisa. Habla con los cuidadores, pregunta, asómbrate. Trae a tus hijos, a tu familia, a quien quieras. Y si al salir sientes que el mundo natural merece más espacio en tu vida cotidiana, habremos hecho bien nuestro trabajo.</p>
+
+                <p>Bienvenido. Hoy cuidas, conectas y conservas.</p>
+            </article>
+            <aside class="bienvenida-imagen">
+                <img src="media/ajolote.jpg" alt="">
+            </aside>
+        </section>
+    </main>
     <footer id="pie">
-        <article class="pie-logo">
+        <article class="pie-seccion pie-logo">
             <img src="media/fes_aragon_logo.png">
         </article>
-        <article class="pie-enlaces">
+        <article class="pie-seccion pie-enlaces">
             <ul>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="donar.html">Donar</a></li>
@@ -54,17 +95,17 @@
                 <li><a href="terminos-condiciones.html">Terminos y Condiciones</a></li>
             </ul>
         </article>
-        <article class="pie-direccion">
-            <p><strong>Direccion:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <article class="pie-seccion pie-direccion">
+            <p><strong>Direccion:</strong> Av. Universidad Nacional S/N, Bosques de Aragon, 57171 Cdad. Nezahualcóyotl, Méx.</p>
         </article>
-        <article class="pie-social">
-            <p><strong>Telefono:</strong> 1234567890</p>
+        <article class="pie-seccion pie-social">
+            <p><strong>Telefono:</strong> +525556230845</p>
             <p><strong>Correo:</strong> contacto@aragonzoo.com</p>
-            <a href="#" class="icono-social" title="Instagram">Google</a>
-            <a href="#" class="icono-social" title="Facebook">Facebook</a>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.google.com" class="fa fa-google"></a>
         </article>
-        <section class="creative-commons">
-            <a href="https://angugo06.github.io/pagina_zoologico_PW1/">Zoo Aragon</a> © 2026 by <a href="https://www.linkedin.com/in/angel-andre-guzman-gonzalez-5b202428a/">Andre Guzman &amp; Diego Vivas</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 2em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        <section class="pie-seccion creative-commons">
+            <a href="https://angugo06.github.io/pagina_zoologico_PW1/">Zoo Aragon</a> © 2026 by <a href="https://www.linkedin.com/in/angel-andre-guzman-gonzalez-5b202428a/"> Andre Guzman &amp; Diego Vivas </a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 2em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
         </section>
     </footer>
 </body>

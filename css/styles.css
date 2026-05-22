@@ -1,3 +1,28 @@
+/* Reset basico */
+html{
+    font-size: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Trebuchet MS', Calibri, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 1.6em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
 /* PAGINA INICIO HEADER */
 #hero-inicio{
     background-color: #A4D119;
@@ -114,6 +139,7 @@
     font-size: 9em;
     letter-spacing: 0.15em;
     padding: 15px;
+    gap: 1rem;
 }
 
 /* logo*/
@@ -129,7 +155,6 @@
     color: black;
 }
 .logo img{
-
     height: 100%;
     width: auto;
     position: relative;
@@ -141,6 +166,102 @@
     color: black;
 }
 
+/* Carrusel de tarjetas */
+.carrusel-tarjetas{
+    background-color: white;
+    padding: 35px 25px;
+}
+
+.carrusel-tarjetas h2{
+    margin: 0 0 25px 0;
+    color: #2c4d05;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.tarjetas-fila{
+    display: flex;
+    gap: 18px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+.tarjeta{
+    flex: 1;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 25px 15px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+}
+
+.tarjeta:hover{
+    background-color: #f0f8d0;
+    border-color: #5a7a0c;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.3);
+}
+
+.tarjeta .icono-tarjeta{
+    font-size: 3.5em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tarjeta h3{
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Seccion de bienvenida (parte baja del index) */
+.bienvenida{
+    background-color: white;
+    padding: 50px 30px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.bienvenida-texto{
+    flex: 1.2;
+}
+
+.bienvenida h2{
+    font-size: 3em;
+    color: #2c4d05;
+    text-shadow: 2px 2px 0 #d0e89a;
+    margin-top: 0;
+}
+
+.bienvenida-texto p{
+    font-size: 1.1em;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+.bienvenida-imagen{
+    flex: 1;
+    height: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14em;
+    border-radius: 8px;
+}
+.bienvenida-imagen img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
 /*Para sobre nosotros */
 .sobre-no{
     border: 0.2rem solid #1E90FF;
@@ -224,50 +345,82 @@
 
 #pie{
     border: 0.2rem solid #1E90FF;
-    background-color: #d2eae8;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 0.2rem;
 }
 
-
-.pie-logo{
+.pie-seccion{
+    padding: 1rem;
     border: 0.2rem solid #1E90FF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pie-logo img{
-    border: 0.2rem solid #1E90FF;
-    background-color: #d2eae8;
 
+.pie-logo{
+
+}
+.pie-logo img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 100px;
 }
 
 .pie-enlaces{
-    border: 0.2rem solid #1E90FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.pie-direccion{
-    border: 0.2rem solid #1E90FF;
+.pie-enlaces ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.pie-enlaces ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     align-items: center;
+}.
+.pie-enlaces a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+ }
+ .pie-enlaces a:hover{
+     text-decoration: underline;
+     color: black;
+
+ }
+
+ .pie-enlaces a:active{
+     text-decoration: underline;
+     color: black;
+     font-weight: bold;
+
+ }
+ .pie-enlaces a:visited{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+
+.pie-direccion{
+
 }
 
 .pie-social{
-    border: 0.2rem solid #1E90FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+
+    gap: 1.5rem;
 }
 
 .icono-social{
@@ -276,4 +429,36 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.creative-commons{
+
+
+    grid-column: 1/5;
+}
+
+/* Estilos de iconos */
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 34px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; /* Makes them circular */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
 }
