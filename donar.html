@@ -11,52 +11,61 @@
 
 </head>
 <body>
-<header id="hero-inicio">
-    <nav class="hero-barra-superior">
-        <div class="logo">
-            <a href="index.html" class="logo">
-                <img src="media/fes_aragon_logo.png" alt="" class="logo-imagen">
-            </a>
-        </div>
-        <h1>Donar</h1>
-        <ul class="menu-principal-lista">
-            <li><a href="tickets.html">Tickets</a></li>
-            <li><a href="mapa.html">Mapa</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="donar.html">Donar</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-
-</main>
-<footer id="pie">
-    <article class="pie-seccion pie-logo">
-        <img src="media/fes_aragon_logo.png">
-    </article>
-    <article class="pie-seccion pie-enlaces">
-        <ul>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="donar.html">Donar</a></li>
-            <li><a href="politica-privacidad.html">Politica de Privacidad</a></li>
-            <li><a href="terminos-condiciones.html">Terminos y Condiciones</a></li>
-        </ul>
-    </article>
-    <article class="pie-seccion pie-direccion">
-        <p><strong>Direccion:</strong> Av. Universidad Nacional S/N, Bosques de Aragon, 57171 Cdad. Nezahualcóyotl, Méx.</p>
-    </article>
-    <article class="pie-seccion pie-social">
-        <p><strong>Telefono:</strong> +525556230845</p>
-        <p><strong>Correo:</strong> contacto@aragonzoo.com</p>
-        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-        <a href="https://www.google.com" class="fa fa-google"></a>
-    </article>
-    <section class="pie-seccion creative-commons">
-        <a href="https://angugo06.github.io/pagina_zoologico_PW1/">Zoo Aragon</a> © 2026 by <a href="https://www.linkedin.com/in/angel-andre-guzman-gonzalez-5b202428a/"> Andre Guzman &amp; Diego Vivas </a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 2em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-    </section>
-</footer>
-
+    <header id="hero-inicio">
+        <nav class="hero-barra-superior">
+            <div class="logo">
+                <a href="index.html" class="logo">
+                    <img src="media/fes_aragon_logo.png" alt="" class="logo-imagen">
+                </a>
+            </div>
+            <h1>Donar</h1>
+            <ul class="menu-principal-lista">
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="mapa.html">Mapa</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="donar.html">Donar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenedor-form">
+            <form class="form-datos" method="post">
+                <label for="dona">Cantidad de donación:</label>
+                <input type="number" id="dona" name="dona" placeholder="Cuanto vas a querer donar" required>
+                <label for="coment">Comentario:</label>
+                <textarea id="coment" name="coment" rows="10" cols="50" placeholder="Introduce un comentario "></textarea>
+                <label for="anoni">Si deseas donar en anónimo marca la casilla</label>
+                <input type="checkbox" id="anoni" name="anoni">
+                <button type="submit">Donar</button>
+            </form>
+        </section>
+    </main>
+    <footer id="pie">
+        <article class="pie-seccion pie-logo">
+            <img src="media/fes_aragon_logo.png">
+        </article>
+        <article class="pie-seccion pie-enlaces">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="donar.html">Donar</a></li>
+                <li><a href="politica-privacidad.html">Politica de Privacidad</a></li>
+                <li><a href="terminos-condiciones.html">Terminos y Condiciones</a></li>
+            </ul>
+        </article>
+        <article class="pie-seccion pie-direccion">
+            <p><strong>Direccion:</strong> Av. Universidad Nacional S/N, Bosques de Aragon, 57171 Cdad. Nezahualcóyotl, Méx.</p>
+        </article>
+        <article class="pie-seccion pie-social">
+            <p><strong>Telefono:</strong> +525556230845</p>
+            <p><strong>Correo:</strong> contacto@aragonzoo.com</p>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.google.com" class="fa fa-google"></a>
+        </article>
+        <section class="pie-seccion creative-commons">
+            <a href="https://angugo06.github.io/pagina_zoologico_PW1/">Zoo Aragon</a> © 2026 by <a href="https://www.linkedin.com/in/angel-andre-guzman-gonzalez-5b202428a/"> Andre Guzman &amp; Diego Vivas </a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 2em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </section>
+    </footer>
 </body>
 </html>
