@@ -324,7 +324,7 @@ main{
     width: 100%;
     display: grid;
     place-items: center;
-    padding: 2rem;
+    padding: 1rem;
 
 }
 
@@ -491,4 +491,14 @@ main{
     background: #A4D119;
     color: black;
     border: 0.2rem solid #0066cc;
+}
+
+button:hover{
+    background: #A4D119;
+    cursor: pointer;
+}
+
+.texto-sup{
+    justify-content: center;
+    text-align: center;
 }
