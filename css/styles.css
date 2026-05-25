@@ -502,3 +502,39 @@ button:hover{
     justify-content: center;
     text-align: center;
 }
+
+/* POLITICA DE PRIVACIDAD Y TERMINOS Y CONDICIONES */
+
+.texto-legal{
+    padding: 35px 60px;
+}
+
+.texto-legal h2{
+    font-size: 2em;
+    color: #2c4d05;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #d0e89a;
+}
+
+.texto-legal p{
+    font-size: 1.1em;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+.texto-legal em{
+    color: #666;
+    font-size: 0.95em;
+}
+
+.texto-legal a{
+    color: #1E90FF;
+    text-decoration: underline;
+}
+
+.texto-legal a:hover{
+    color: #0066cc;
+}
