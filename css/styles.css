@@ -538,3 +538,51 @@ button:hover{
 .texto-legal a:hover{
     color: #0066cc;
 }
+
+/* PAGINA MAPA */
+
+.mapa-contenido{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.mapa-simbologia{
+    flex: 1;
+    min-width: 250px;
+}
+
+.mapa-simbologia ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.mapa-simbologia li{
+    border-bottom: 1px dotted #5a7a0c;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mapa-simbologia .simbolo{
+    width: 35px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.mapa-imagen{
+    position: absolute;
+    flex: 2;
+    min-height: 480px;
+    background-color: #f0f8d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    border-radius: 6px;
+    position: relative;
+}
