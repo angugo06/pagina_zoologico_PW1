@@ -624,6 +624,15 @@ button:hover{
         width: 100%;
         height: 280px;
     }
+
+    .bienvenida-imagen img{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
     .mapa-contenido{
         flex-direction: column;
     }
@@ -641,6 +650,12 @@ button:hover{
     }
     .contenedor-carrusel{
         overflow-x: auto;
+    }
+
+    .animales-gif iframe{
+        width: 100%;
+        max-width: 220px;
+        height: auto;
     }
 }
 
@@ -676,6 +691,9 @@ button:hover{
     .pie-social{
         flex-direction: column;
         gap: 0.5rem;
+    }
+    .animales-gif iframe{
+        max-width: 160px;
     }
 }
 
